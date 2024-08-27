@@ -12,7 +12,6 @@ const double PI = 3.14159265358979323846;
 const int MAX_T = 5000;
 const int T_RESOLUTION = 100;
 const int T_NUM = MAX_T / T_RESOLUTION;
-const int T_START = 0;
 const string OUTPUT_FILE_PATH_WITHOUT_EXT = "output";
 const string INPUT_FILE_PATH = "input.csv";
 
