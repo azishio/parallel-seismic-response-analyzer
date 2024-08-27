@@ -165,7 +165,6 @@ int main(int argc, char *argv[]) {
     if(file.is_open()){
         string line;
         while (getline(file, line)) {
-            seismic_data.push_back(stod(line));
             try{
                 double num = stod(line);
                 seismic_data.push_back(num);
@@ -233,5 +232,6 @@ int main(int argc, char *argv[]) {
         cerr << "Failed to open file" << endl;
     }
 
+    MPI_Finalize();
     return 0;
 }
