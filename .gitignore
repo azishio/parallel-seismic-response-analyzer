@@ -1,2 +1,5 @@
 .idea
 cmake-*
+output.*
+*.csv
+*.out
